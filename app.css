@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -10,18 +14,26 @@
     flex-direction: row;
     padding: 10px;
 }
+.obj{
+    margin-left: 30px;
+}
 button{
     background-color: white;
     border: 0px;
-    /* right: 3px; */
 }
-button[type=features]{
-    margin-left: 30%;
+/* a{
+    margin-right: 5%;
+}
+#features{
+    margin-right: 2%;
+} */
+a{
+    color: black;
 }
 .elmts,.elmts1{
     display: flex;
     flex-direction: column;
-     margin-left: 7%; 
+    margin-left: 7%; 
 }
 input[type=text],input[type=text1]{
     width: 80%;
@@ -40,9 +52,9 @@ button[type=start],button[type=startfree]{
 .logo{
     margin-left: 10px;
 }
-h1,h4{
-    text-align: center;
-}
+/* h1,h4{
+    /* text-align: center; */
+} */
 h6{
     margin-left: 90px;
     color: rgb(44, 117, 83);
@@ -50,7 +62,7 @@ h6{
 p{
     padding: 15px;
     font-size: 15px;
-    text-align: center; 
+    /* text-align: center;  */
 }
 .founderdetails{
     font-size: 10px;
@@ -62,7 +74,7 @@ p{
     border-radius: 5px;
 }
 .today{
-    padding: 10px;
+    padding: 30px;
     height: auto;
     background-color: rgb(81, 81, 139);
     color: white;
@@ -81,9 +93,12 @@ p{
     display: flex;
     flex-direction: row;
 }
+.block1{
+    padding: 20px;
+}
 @media not screen and (max-width:500px){
     .img1{
-        width: 50%;
+        width: auto;
         height: 300px;
     }
     .img2{
@@ -114,6 +129,9 @@ p{
         flex-direction: row;
         margin-left: 2%;
     }
+    .elmts{
+        width: 40%;
+    }
     button[type=startfree]{
         width: 80%;
     }
@@ -123,5 +141,8 @@ p{
     button[type=start]{
         width: 25%;
         margin: 1px 0 0 5px;
+    }
+    .obj{
+        margin-left: 60%;
     }
 }
