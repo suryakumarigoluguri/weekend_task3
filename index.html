@@ -3,14 +3,14 @@
     <head>
         <meta  charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open%20Sans" rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
       <div class="flex-container">
         <div class="objects">
-          <img class="logo" src="images/logo.svg" width="50px" height="30px"/>
-          <!-- <object type="images/logo/svg+xml" data="images/logo.svg"></object>
-          <iframe src="images/logo.svg"></iframe>  -->
+          <img class="logo" src="images/logo.svg" width="90px" height="30px"/>
           <button type="features">Featues</button> 
           <button type="team">Team</button>
           <button type="login">Log In</button>
@@ -46,9 +46,14 @@
               <p style="margin: -20px">Fylo has improved our team productivity by an order of magnitude.
                  Since making the switch our team become a well-oiled colloboration machine.
               </p><br>
-              <img style="border-radius: 50%" src="images/avatar-testimonial.jpg" width="40" height="40" />
-              <b>Kyle Burton</b><br>
-              Founder & CEO,Huddle
+              <div class="ceo">
+                <img style="border-radius: 50%" src="images/avatar-testimonial.jpg" width="40" height="40" />
+                <div>
+                  <br>
+                  <b>Kyle Burton</b><br>
+                  Founder & CEO,Huddle
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -65,12 +70,12 @@
           </div>
         </div>
         <div class="condetails">
-          <div>
-              <img src="images/logo.svg" width="100" height="50"/><br><br>
+          <div id="i1" style="width: auto">
+              <img src="images/fylo.svg" width="100" height="50"/><br><br>
               <img src="images/icon-phone.svg" width="15" height="15"/>&nbsp;&nbsp;Phone:+1-543-123-4567<br>
               <img src="images/icon-email.svg" width="20" height="20"/>&nbsp;&nbsp;example@fylo.com
           </div>
-          <div style="padding: 20px">
+          <div id="i2" style="padding: 20px">
             <h5>About us
                 <br><br>
                 Jobs
@@ -80,7 +85,7 @@
                 Blog
             </h5>  
           </div>
-          <div style="padding: 20px">
+          <div id="i3" style="padding: 20px">
             <h5>
                 Contact us
                 <br><br>
@@ -89,7 +94,7 @@
                 Privacy
             </h5>
           </div>
-          <div style="margin-left: 100px">
+          <div id="i4" style="padding: 30px">
               <img src="images/fb.png" width="20" height="20">
               <img src="images/twitter.png" width="20" height="20">
               <img src="images/insta.jpg" width="20" height="20">
