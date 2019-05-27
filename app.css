@@ -57,14 +57,14 @@ button[type=start],button[type=startfree]{
     margin-left: 10px;
 }
 /* h1,h4{
-    /* text-align: center; */
+     text-align: center; 
 } */
-h6{
+/* h6{
     margin-left: 90px;
     color: rgb(44, 117, 83);
-}
+} */
 p{
-    padding: 15px; 
+    /* padding: 15px;  */
     font-size: 15px;
     /* text-align: center;  */
 }
@@ -124,8 +124,8 @@ p{
         font-size: 15px;
     }
     .logo{
-        width: 250px;
-        height: 100px;
+        width: 180px;
+        height: 60px;
     }
     .img1{
         width: 60%;
@@ -169,7 +169,7 @@ p{
         width: 60%;
     }
     button[type=startfree]{
-        width: 80%;
+        width: 50%;
     }
     input[type=text]{
         width: 50%;
